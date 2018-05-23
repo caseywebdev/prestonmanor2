@@ -17,10 +17,25 @@
     <style>
       body {
         background: #eee;
+        color: #333;
         font-family: sans-serif;
         margin: 0;
         padding: 20px;
         text-align: center;
+      }
+
+      a {
+        color: #e79322;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .root {
+        max-width: 600px;
+        margin: 0 auto 20px;
       }
 
       .banner {
@@ -28,21 +43,35 @@
         box-shadow: 1px 1px 10px rgba(0, 0, 0, .25);
         box-sizing: border-box;
         display: block;
-        margin: 0 auto 20px;
-        width: 600px;
         max-width: 100%;
+      }
+
+      .left {
+        text-align: left;
       }
     </style>
   </head>
 
   <body>
-    <img class='banner' src='/banner.jpg'>
-    <h1>Our Block Party is June 9, 2018!</h1>
-    Details to come.<br>
-    <br>
-    If you haven't already,
-    <a href='https://www.facebook.com/groups/prestonmanor2/'>
-      join our Facebook group
-    </a>
+    <div class='root'>
+      <img class='banner' src='/banner.jpg'>
+      <h1>Our Block Party is June 9, 2018!</h1>
+      <p class='left'>
+        We know each other's houses, let's get to know each other! All residents
+        welcome!  Bring food to share, the comittee will provide the hot dogs.
+        BYOBeverages and seating. Fun and Games to include Music, a Bounce
+        House, Corn Hole, Water Balloon Toss, and more! Feel free to comment
+        with what you would like to bring to share!
+      </p>
+      <p>
+        Please <a href='http://evite.me/2CSJVh3AMp'>RSVP on Evite</a> for more
+        information.
+      </p>
+      <p>
+        If you haven't already,
+        <a href='https://www.facebook.com/groups/prestonmanor2/'>
+          join our Facebook group</a>.
+      </p>
+    </div>
   </body>
 </html>
